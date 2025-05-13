@@ -1,10 +1,8 @@
-"""
-Moduł utils dostarcza podstawowe operacje arytmetyczne.
-"""
+"""Moduł utils dostarcza podstawowe operacje arytmetyczne."""
+
 
 def add(a: int, b: int) -> int:
-    """
-    Zwraca sumę dwóch liczb całkowitych.
+    """Zwraca sumę dwóch liczb całkowitych.
 
     :param a: pierwsza liczba całkowita
     :param b: druga liczba całkowita
@@ -12,9 +10,9 @@ def add(a: int, b: int) -> int:
     """
     return a + b
 
+
 def subtract(a: int, b: int) -> int:
-    """
-    Zwraca różnicę między dwoma liczbami całkowitymi.
+    """Zwraca różnicę między dwoma liczbami całkowitymi.
 
     :param a: pierwsza liczba całkowita
     :param b: druga liczba całkowita
@@ -22,9 +20,9 @@ def subtract(a: int, b: int) -> int:
     """
     return a - b
 
+
 def multiply(a: int, b: int) -> int:
-    """
-    Zwraca iloczyn dwóch liczb całkowitych.
+    """Zwraca iloczyn dwóch liczb całkowitych.
 
     :param a: pierwsza liczba całkowita
     :param b: druga liczba całkowita
@@ -32,9 +30,9 @@ def multiply(a: int, b: int) -> int:
     """
     return a * b
 
+
 def divide(a: int, b: int) -> float:
-    """
-    Dzieli pierwszą liczbę całkowitą przez drugą.
+    """Dzieli pierwszą liczbę całkowitą przez drugą.
 
     :param a: dzielna (całkowita)
     :param b: dzielnik (całkowity)
